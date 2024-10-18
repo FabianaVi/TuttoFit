@@ -1,7 +1,7 @@
 *{
 font-size: 1rem;
 font-weight: 400;
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-family: Roboto-Regular,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 margin:unset;
 padding:unset;
@@ -15,10 +15,28 @@ a {
 color: black;
 text-decoration: none;
 }
+hr {
+    background-color:#C4C4C4;
+    height: 2px;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+/*-----------------Directivas-------------*/
+@font-face {
+    font-family:Roboto regular;
+    src: url(/assets/Roboto-Regular.ttf);
+}
+
 
 /*-----------------Header-----------------*/
 header nav {
 display: flex;
+flex-wrap: wrap;
+width:100%;
+object-fit: cover;
 justify-content: space-between;
 align-items: center;
 padding: 12px 60px;
@@ -38,6 +56,9 @@ header nav div {
 .button {
     font-size: 1rem;
     font-weight: 700;
+    flex-wrap: wrap;
+    object-fit: cover;
+    width: 100%;
     padding: 12px 32px;
     border-radius: 10px;
     border: solid 2px transparent;
@@ -51,5 +72,58 @@ header nav div {
     height: 300px;
     width: 100%;
     object-fit: cover;
+}
+
+/*---------------Categorias--------------*/
+.Categorias__img {
+    display: flex  ;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    object-fit: cover;
+    width: 100%;
+    overflow-x: scroll;
+}
+
+/*----------------Tarjetas----------------*/
+.section__card{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.card {background-color: white;}
+
+.card__contenedor__titulo {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.card__contenedor__descripcion {
+    font-size: 14px;
+}
+
+.card__informacion {
+    font-size: 12px;
+}
+
+.card__contenedor2__cantidad {
+font-size: 14px;
+}
+ 
+.card__contenedor2__botones button {
+   font-size: 12px;
+    color: #318EAD;
+    border-radius: 100px;
+    background-color: transparent;
+    border: solid 2px #318EAD;
+    
+}
+
+.card__comprar {
+    font-size: 12px;
+    font-weight: 700;
+    color: #318EAD;
+    background-color: transparent;
+    border: solid 2px #318EAD;
+    border-radius: 12px;
 }
 
