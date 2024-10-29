@@ -108,6 +108,7 @@ header nav div {
     box-shadow: 0px 1px 10px rgba(17, 0, 255, 0.192);
     cursor: default;
     transition: all 400ms ease;
+    padding: 24px;
 }
 
 .card:hover {
@@ -133,11 +134,9 @@ width: 100%;
     padding: 5px 30px;
 }
 
-
 .card__contenedor__titulo {
     font-size: 24px;
     font-weight: 600;
-    padding: 2px;
 }
 
 .card__contenedor__descripcion {
@@ -174,7 +173,6 @@ width: 100%;
 
 }
 
-
 .card__comprar {
     font-size: 12px;
     font-weight: 700;
@@ -183,10 +181,10 @@ width: 100%;
     border: 3px solid #318EAD;
     justify-content: center;
     align-items: center;
-    padding: 5px 90px;
-    margin-bottom: 5px;
+    padding: 5px 135px;
     display: inline-block;
     transition: all 400ms ease;
+
 }
 
 .card__comprar:hover {
@@ -232,7 +230,9 @@ width: 100%;
 
 .footer_ubicacion_letter {
     color: white;
-    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
 }
 
 .servicios {
