@@ -88,6 +88,10 @@ header nav div {
     overflow-x: scroll;
 }
 
+.div_section_img {
+    padding: 0px 30px;
+}
+
 /*----------------Tarjetas----------------*/
 
 .div_section_categorias {
@@ -184,6 +188,7 @@ width: 100%;
     padding: 5px 135px;
     display: inline-block;
     transition: all 400ms ease;
+    width: 100%;
 
 }
 
@@ -254,3 +259,4 @@ width: 100%;
 .servicios_copyrigth {
     color: white;
 }
+
